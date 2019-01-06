@@ -1,0 +1,16 @@
+{
+  "name": "k8s-tutorial-api",
+  "version": "1.0.0",
+  "description": "Example data-driven API intended for a Kubernetes tutorial.",
+  "main": "app.js",
+  "author": "Ben Botto",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "mysql2": "^1.6.4"
+  }
+}
