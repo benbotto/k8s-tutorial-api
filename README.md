@@ -6,5 +6,5 @@ docker tag k8s-tutorial-api:latest avejidah/k8s-tutorial-api:<VERSION>
 docker push avejidah/k8s-tutorial-api:<VERSION>
 ```
 
-Where <VERSION> matches the version in package.json.
+Where `<VERSION>` matches the version in package.json.
 
