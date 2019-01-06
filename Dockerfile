@@ -1,4 +1,4 @@
-FROM node:dubnium-alpine as build
+FROM node:dubnium-alpine
 
 WORKDIR /var/www/node/k8s-tutorial-api
 
