@@ -3,6 +3,7 @@
 ```
 docker build -t k8s-tutorial-api:latest .
 docker tag k8s-tutorial-api:latest avejidah/k8s-tutorial-api:<VERSION>
+docker tag k8s-tutorial-api:latest avejidah/k8s-tutorial-api:latest
 docker push avejidah/k8s-tutorial-api:<VERSION>
 docker push avejidah/k8s-tutorial-api:latest
 ```
